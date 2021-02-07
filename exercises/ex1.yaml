@@ -1,0 +1,13 @@
+---
+- name: Ex1
+  hosts: localhost
+
+  tasks:
+
+   - name: "ping locally"
+     ping:
+
+   - name: "finder"
+     find:
+      path: ~/
+      file_type: file
